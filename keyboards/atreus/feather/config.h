@@ -28,13 +28,21 @@
  *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
-// #define MATRIX_ROW_PINS { D0, D1, D3, D2 }
-// #define MATRIX_COL_PINS { D7, C6, B5, B4, E6, D4, B6, F6, F7, D6, B7 }
-#define MATRIX_ROW_PINS { B7, D6, C7, F5 }
-#define MATRIX_COL_PINS { D7, B5, D1, D0, C6, B6, F0, D2, D3, F4, F1 }
+#define MATRIX_ROW_PINS { D0, D1, D2, D3 }
+#define MATRIX_COL_PINS { D7, C7, B5, C6, D6, B6, F0, F1, F4, F5, F6 }
+//#define MATRIX_ROW_PINS { B7, D6, C7, F5 }
+//#define MATRIX_COL_PINS { D7, B5, D1, D0, C6, B6, F0, D2, D3, F4, F1 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
-
 #define OUTPUT_AUTO_ENABLE
+#define RGBLIGHT_LAYERS
+#define RGBLED_NUM 32 
+#define RGB_DI_PIN F7
+#define RGBLIGHT_LIMIT_VAL 127
+#define RGBLIGHT_EFFECT_ALTERNATING
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_SLEEP

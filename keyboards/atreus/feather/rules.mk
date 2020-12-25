@@ -19,3 +19,5 @@ BOOTLOADER = caterina
 #
 BLUETOOTH = AdafruitBLE
 CONSOLE_ENABLE = no
+RGBLIGHT_ENABLE= yes
+
